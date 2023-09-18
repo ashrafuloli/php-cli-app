@@ -162,7 +162,7 @@ while (true) {
             printf("-------------------------------- \n");
             echo "\n";
         } else {
-            (new Income())->setIncome($inputIncome, $incomeCategory);
+            $Income->setIncome($inputIncome, $incomeCategory);
             echo "\n";
             printf("-------------------------------- \n");
             printf("Your Income Add Successfully. \n");
@@ -186,7 +186,7 @@ while (true) {
             printf("-------------------------------- \n");
             echo "\n";
         } else {
-            (new Expense())->setExpense($inputExpense, $expenseCategory);
+            $Expense->setExpense($inputExpense, $expenseCategory);
             echo "\n";
             printf("-------------------------------- \n");
             printf("Your Expense Add Successfully. \n");
@@ -194,20 +194,20 @@ while (true) {
             echo "\n";
         }
     } elseif ($user_input == 3) {
-        $income = (int) (new Income())->getIncome();
+        $income = (int) $Income->getIncome();
         echo "\n";
         printf("-------------------------------- \n");
         printf("Total Income: $income  \n");
         printf("-------------------------------- \n");
     } elseif ($user_input == 4) {
-        $expense = (int) (new Expense())->getExpense();
+        $expense = (int) $Expense->getExpense();
         echo "\n";
         printf("-------------------------------- \n");
         printf("Total Expense: $expense  \n");
         printf("-------------------------------- \n");
     } elseif ($user_input == 5) {
-        $income  = (int) (new Income())->getIncome();
-        $expense = (int) (new Expense())->getExpense();
+        $income  = (int) $Income->getIncome();
+        $expense = (int) $Expense->getExpense();
         $result  = $income - $expense;
         echo "\n";
         printf("-------------------------------- \n");
