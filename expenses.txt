@@ -1,0 +1,6 @@
+{"amount":300,"category":"Family"}
+{"amount":100,"category":"Personal"}
+{"amount":70,"category":"Recreation"}
+{"amount":30,"category":"Sadakah"}
+{"amount":20,"category":"Gift"}
+{"amount":100,"category":"Extra"}

@@ -1,0 +1,4 @@
+{"amount":500,"category":"Salary"}
+{"amount":300,"category":"Business"}
+{"amount":100,"category":"Rent"}
+{"amount":100,"category":"Extra"}
